@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 434" font-family="Source Sans Pro, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#49bf9d"/>
+    </marker>
+  </defs>
+  <rect width="740" height="434" fill="#f4f6f5"/>
+
+  <!-- CSD grid (historical census subdivisions) -->
+  <g fill="#c9d3cf">
+    <rect x="70"  y="100" width="46" height="46" rx="4"/>
+    <rect x="126" y="100" width="46" height="46" rx="4"/>
+    <rect x="182" y="100" width="46" height="46" rx="4"/>
+    <rect x="238" y="100" width="46" height="46" rx="4"/>
+    <rect x="70"  y="156" width="46" height="46" rx="4"/>
+    <rect x="126" y="156" width="46" height="46" rx="4" fill="#49bf9d"/>
+    <rect x="182" y="156" width="46" height="46" rx="4" fill="#49bf9d"/>
+    <rect x="238" y="156" width="46" height="46" rx="4"/>
+    <rect x="70"  y="212" width="46" height="46" rx="4"/>
+    <rect x="126" y="212" width="46" height="46" rx="4" fill="#49bf9d"/>
+    <rect x="182" y="212" width="46" height="46" rx="4"/>
+    <rect x="238" y="212" width="46" height="46" rx="4"/>
+    <rect x="70"  y="268" width="46" height="46" rx="4"/>
+    <rect x="126" y="268" width="46" height="46" rx="4"/>
+    <rect x="182" y="268" width="46" height="46" rx="4"/>
+    <rect x="238" y="268" width="46" height="46" rx="4"/>
+  </g>
+  <text x="177" y="82" text-anchor="middle" font-size="18" fill="#7a8a84" letter-spacing="2">CSD</text>
+  <text x="177" y="352" text-anchor="middle" font-size="15" fill="#9aa8a2">2001 · 2006 · 2011 · 2016 · 2021</text>
+
+  <!-- arrow -->
+  <line x1="316" y1="207" x2="410" y2="207" stroke="#49bf9d" stroke-width="4" marker-end="url(#arr)"/>
+
+  <!-- 2021 classification target -->
+  <g>
+    <circle cx="560" cy="207" r="112" fill="none" stroke="#c9d3cf" stroke-width="3"/>
+    <circle cx="560" cy="207" r="76"  fill="none" stroke="#a9b8b2" stroke-width="3"/>
+    <circle cx="560" cy="207" r="40"  fill="#49bf9d"/>
+    <text x="560" y="213" text-anchor="middle" font-size="18" fill="#ffffff" font-weight="600">CMA</text>
+    <text x="560" y="150" text-anchor="middle" font-size="15" fill="#7a8a84">CA</text>
+    <text x="560" y="110" text-anchor="middle" font-size="15" fill="#9aa8a2">MIZ</text>
+  </g>
+  <text x="560" y="352" text-anchor="middle" font-size="15" fill="#9aa8a2">2021 geography</text>
+</svg>

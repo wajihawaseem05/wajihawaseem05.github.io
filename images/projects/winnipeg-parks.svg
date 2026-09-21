@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 434" font-family="Source Sans Pro, Helvetica, Arial, sans-serif">
+  <rect width="740" height="434" fill="#f4f6f5"/>
+
+  <!-- search field -->
+  <rect x="90" y="70" width="440" height="48" rx="8" fill="#ffffff" stroke="#c9d3cf" stroke-width="2"/>
+  <circle cx="118" cy="94" r="8" fill="none" stroke="#9aa8a2" stroke-width="3"/>
+  <line x1="124" y1="100" x2="132" y2="108" stroke="#9aa8a2" stroke-width="3" stroke-linecap="round"/>
+  <text x="150" y="101" font-size="20" fill="#4a5650">North</text>
+  <rect x="546" y="70" width="104" height="48" rx="8" fill="#49bf9d"/>
+  <text x="598" y="101" text-anchor="middle" font-size="18" fill="#ffffff" font-weight="600">Search</text>
+
+  <!-- results table -->
+  <g font-size="15">
+    <rect x="90" y="150" width="560" height="34" rx="4" fill="#e3e8e6"/>
+    <text x="106" y="172" fill="#7a8a84" font-weight="600" letter-spacing="1">DISTRICT</text>
+    <text x="210" y="172" fill="#7a8a84" font-weight="600" letter-spacing="1">PARK</text>
+    <text x="470" y="172" fill="#7a8a84" font-weight="600" letter-spacing="1">TYPE</text>
+
+    <g fill="#4a5650">
+      <text x="106" y="216">North</text><text x="210" y="216">Sargent Park</text><text x="470" y="216">Community</text>
+      <line x1="90" y1="232" x2="650" y2="232" stroke="#e3e8e6"/>
+      <text x="106" y="262">North</text><text x="210" y="262">Little Mountain Park</text><text x="470" y="262">Regional</text>
+      <line x1="90" y1="278" x2="650" y2="278" stroke="#e3e8e6"/>
+      <text x="106" y="308">North</text><text x="210" y="308">Jae Eadie Park</text><text x="470" y="308">Neighbourhood</text>
+      <line x1="90" y1="324" x2="650" y2="324" stroke="#e3e8e6"/>
+      <text x="106" y="354">North</text><text x="210" y="354">Waterford Green Trail</text><text x="470" y="354">Linkage</text>
+    </g>
+  </g>
+
+  <!-- tree motif -->
+  <g transform="translate(600,240)">
+    <path d="M0,-52 L30,-8 L14,-8 L36,26 L4,26 L4,50 L-4,50 L-4,26 L-36,26 L-14,-8 L-30,-8 Z" fill="#49bf9d"/>
+  </g>
+  <text x="650" y="404" text-anchor="end" font-size="14" fill="#9aa8a2">1,000+ City of Winnipeg parks</text>
+</svg>

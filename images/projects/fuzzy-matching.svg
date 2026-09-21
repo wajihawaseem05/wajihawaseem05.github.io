@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 434" font-family="Source Sans Pro, Helvetica, Arial, sans-serif">
+  <rect width="740" height="434" fill="#f4f6f5"/>
+
+  <!-- dataset A -->
+  <text x="90" y="82" font-size="18" fill="#7a8a84" letter-spacing="2">DATASET A</text>
+  <g font-size="17" fill="#4a5650">
+    <rect x="90" y="106" width="200" height="44" rx="6" fill="#ffffff" stroke="#c9d3cf"/><text x="106" y="134">ACME Corp Ltd.</text>
+    <rect x="90" y="176" width="200" height="44" rx="6" fill="#ffffff" stroke="#c9d3cf"/><text x="106" y="204">Northwind Trd Co</text>
+    <rect x="90" y="246" width="200" height="44" rx="6" fill="#ffffff" stroke="#c9d3cf"/><text x="106" y="274">Globex Inc</text>
+    <rect x="90" y="316" width="200" height="44" rx="6" fill="#ffffff" stroke="#c9d3cf"/><text x="106" y="344">Initech LLC</text>
+  </g>
+
+  <!-- dataset B -->
+  <text x="450" y="82" font-size="18" fill="#7a8a84" letter-spacing="2">DATASET B</text>
+  <g font-size="17" fill="#4a5650">
+    <rect x="450" y="106" width="200" height="44" rx="6" fill="#ffffff" stroke="#c9d3cf"/><text x="466" y="134">Acme Corporation</text>
+    <rect x="450" y="176" width="200" height="44" rx="6" fill="#ffffff" stroke="#c9d3cf"/><text x="466" y="204">Northwind Traders</text>
+    <rect x="450" y="246" width="200" height="44" rx="6" fill="#ffffff" stroke="#c9d3cf"/><text x="466" y="274">Global Ex. Ltd</text>
+    <rect x="450" y="316" width="200" height="44" rx="6" fill="#ffffff" stroke="#c9d3cf"/><text x="466" y="344">Initech</text>
+  </g>
+
+  <!-- links -->
+  <g fill="none" stroke-width="3">
+    <path d="M290,128 C370,128 370,128 450,128" stroke="#49bf9d"/>
+    <path d="M290,198 C370,198 370,198 450,198" stroke="#49bf9d"/>
+    <path d="M290,268 C370,268 370,268 450,268" stroke="#c9d3cf" stroke-dasharray="6 6"/>
+    <path d="M290,338 C370,338 370,338 450,338" stroke="#49bf9d"/>
+  </g>
+
+  <!-- similarity scores -->
+  <g font-size="14" text-anchor="middle" font-weight="600">
+    <rect x="345" y="115" width="50" height="26" rx="13" fill="#49bf9d"/><text x="370" y="133" fill="#ffffff">0.94</text>
+    <rect x="345" y="185" width="50" height="26" rx="13" fill="#49bf9d"/><text x="370" y="203" fill="#ffffff">0.88</text>
+    <rect x="345" y="255" width="50" height="26" rx="13" fill="#e3e8e6"/><text x="370" y="273" fill="#7a8a84">0.61</text>
+    <rect x="345" y="325" width="50" height="26" rx="13" fill="#49bf9d"/><text x="370" y="343" fill="#ffffff">0.97</text>
+  </g>
+</svg>
