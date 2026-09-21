@@ -30,6 +30,25 @@
 			xsmall:  [ null,      '480px'  ],
 		});
 
+	// Lightbox for the Community gallery (caption comes from each photo's <h3>).
+		$window.on('load', function() {
+
+			$('#community').poptrox({
+				caption: function($a) { return $a.next('h3').text(); },
+				overlayColor: '#2c2c2c',
+				overlayOpacity: 0.85,
+				popupCloserText: '',
+				popupLoaderText: '',
+				selector: '.work-item a.image',
+				usePopupCaption: true,
+				usePopupDefaultStyling: false,
+				usePopupEasyClose: false,
+				usePopupNav: true,
+				windowMargin: (breakpoints.active('<=small') ? 0 : 50)
+			});
+
+		});
+
 	// Play initial animations on page load.
 		$window.on('load', function() {
 			window.setTimeout(function() {
