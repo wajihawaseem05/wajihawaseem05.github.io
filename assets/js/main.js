@@ -34,7 +34,10 @@
 		$window.on('load', function() {
 
 			$('#community').poptrox({
-				caption: function($a) { return $a.next('h3').text(); },
+				caption: function($a) {
+					var date = $a.nextAll('p').first().text();
+					return $a.next('h3').text() + (date ? ' — ' + date : '');
+				},
 				overlayColor: '#2c2c2c',
 				overlayOpacity: 0.85,
 				popupCloserText: '',
