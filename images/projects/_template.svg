@@ -1,0 +1,47 @@
+<!--
+  Project thumbnail template. Copy this file, rename it (e.g. my-project.svg),
+  and replace the shapes between the START/END markers with a simple diagram
+  of what the project does. Keep it to one idea, 3-8 shapes, a few labels.
+
+  Canvas: 740 x 434 (do not change - it matches the grid slot on the site)
+  Safe area: keep content inside x 70-670, y 60-380
+
+  Palette (use these and nothing else):
+    background   #f4f6f5
+    light grey   #c9d3cf   boxes, outlines, inactive things
+    mid grey     #9aa8a2   secondary labels
+    dark grey    #7a8a84   section labels (use letter-spacing="2" and CAPS)
+    text         #4a5650   body text inside boxes
+    green        #49bf9d   the ONE element that matters (the result, the match, the arrow)
+    white        #ffffff   box fills, text on green
+
+  Text: font-size 14-20 (anything smaller is unreadable at thumbnail size)
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 434" font-family="Source Sans Pro, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#49bf9d"/>
+    </marker>
+  </defs>
+  <rect width="740" height="434" fill="#f4f6f5"/>
+
+  <!-- ===== START: replace everything below with your diagram ===== -->
+
+  <!-- input: a box with a label -->
+  <text x="90" y="82" font-size="18" fill="#7a8a84" letter-spacing="2">INPUT</text>
+  <rect x="90" y="106" width="200" height="200" rx="6" fill="#ffffff" stroke="#c9d3cf" stroke-width="2"/>
+  <text x="190" y="212" text-anchor="middle" font-size="17" fill="#4a5650">raw data</text>
+
+  <!-- the transformation: a green arrow -->
+  <line x1="316" y1="206" x2="420" y2="206" stroke="#49bf9d" stroke-width="4" marker-end="url(#arr)"/>
+
+  <!-- output: the thing that matters, in green -->
+  <text x="450" y="82" font-size="18" fill="#7a8a84" letter-spacing="2">OUTPUT</text>
+  <rect x="450" y="106" width="200" height="200" rx="6" fill="#49bf9d"/>
+  <text x="550" y="212" text-anchor="middle" font-size="17" fill="#ffffff" font-weight="600">result</text>
+
+  <!-- footnote -->
+  <text x="650" y="404" text-anchor="end" font-size="14" fill="#9aa8a2">one line of context</text>
+
+  <!-- ===== END ===== -->
+</svg>
