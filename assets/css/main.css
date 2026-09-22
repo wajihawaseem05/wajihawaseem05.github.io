@@ -2923,7 +2923,7 @@ input, select, textarea {
 		border-radius: 0.35em;
 		box-shadow: 0 0.1em 0.15em 0 rgba(0, 0, 0, 0.15);
 		overflow: hidden;
-		padding-bottom: 3em;
+		padding-bottom: 4.5em;
 	}
 
 		.poptrox-popup .loader {
@@ -2962,11 +2962,16 @@ input, select, textarea {
 		.poptrox-popup .caption {
 			background: #fff;
 			bottom: 0;
+			box-sizing: border-box;
 			cursor: default;
+			display: flex;
+			align-items: center;
+			justify-content: center;
 			font-size: 0.9em;
-			height: 3em;
+			height: 5em;
 			left: 0;
-			line-height: 2.8em;
+			line-height: 1.5em;
+			padding: 0 1.25em;
 			position: absolute;
 			text-align: center;
 			width: 100%;
