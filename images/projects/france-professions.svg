@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 434" font-family="Source Sans Pro, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#49bf9d"/>
+    </marker>
+  </defs>
+  <rect width="740" height="434" fill="#f4f6f5"/>
+
+  <!-- one professional register -->
+  <text x="90" y="80" font-size="18" fill="#7a8a84" letter-spacing="2">ONE REGISTER</text>
+  <rect x="90" y="150" width="200" height="118" rx="8" fill="#49bf9d"/>
+  <text x="190" y="206" text-anchor="middle" font-size="34" fill="#ffffff" font-weight="600">71,899</text>
+  <text x="190" y="236" text-anchor="middle" font-size="16" fill="#ffffff">licence holders</text>
+  <text x="190" y="300" text-anchor="middle" font-size="15" fill="#9aa8a2">pharmacists, 2019</text>
+
+  <!-- split across occupation codes -->
+  <path d="M300,190 C370,190 380,150 448,150" fill="none" stroke="#49bf9d" stroke-width="3.5" marker-end="url(#arr)"/>
+  <path d="M300,228 C370,228 380,288 448,288" fill="none" stroke="#49bf9d" stroke-width="3.5" marker-end="url(#arr)"/>
+
+  <text x="470" y="80" font-size="18" fill="#7a8a84" letter-spacing="2">PCS 2020 CODES</text>
+
+  <rect x="470" y="118" width="180" height="64" rx="6" fill="#ffffff" stroke="#c9d3cf" stroke-width="2"/>
+  <text x="490" y="146" font-size="19" fill="#4a5650" font-weight="600">31A6</text>
+  <text x="630" y="146" text-anchor="end" font-size="19" fill="#4a5650">29,126</text>
+  <text x="490" y="168" font-size="14" fill="#9aa8a2">self-employed</text>
+
+  <rect x="470" y="256" width="180" height="64" rx="6" fill="#ffffff" stroke="#c9d3cf" stroke-width="2"/>
+  <text x="490" y="284" font-size="19" fill="#4a5650" font-weight="600">34C4</text>
+  <text x="630" y="284" text-anchor="end" font-size="19" fill="#4a5650">42,773</text>
+  <text x="490" y="306" font-size="14" fill="#9aa8a2">salaried</text>
+
+  <text x="650" y="404" text-anchor="end" font-size="14" fill="#9aa8a2">48 professions · 116 occupation codes</text>
+</svg>
